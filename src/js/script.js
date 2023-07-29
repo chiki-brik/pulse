@@ -158,7 +158,8 @@ $(document).ready(function(){
             data: $(this).serialize() // что за данные отправляются на сервер - данные с формы, к которым применен метод serialize
         }).done( function () { //что происходит после выполнения этой операции
             $(this).find("input").val(""); // очищаем форму после отправки
-
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #thnx').fadeIn();
 
             $('form').trigger('reset'); //обновление форм
         }); 
