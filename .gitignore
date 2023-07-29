@@ -1,2 +1,3 @@
 src/mailer/smart.php
 dist/mailer/smart.php
+node_modules
