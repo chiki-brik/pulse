@@ -1,0 +1,51 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        width: 750px;
+        margin: 0 auto;
+        position: relative;
+        // img {
+        //     width:33%;
+        // }
+    }
+
+     .prev, .next {
+    //[data-controls=prev], .slick-next {    
+        border: none;
+        background-color: #fff; //background: transparent;
+        position: absolute;
+        top: 50%; //смещаем в центр слайдера
+        transform: translateY(-50%); //смещаем в центр слайдера
+        left: -66px; //отодвигаем от картинок
+        img {
+            width: 31px;
+            height:50px;
+        }
+    }
+
+    .next {
+        left: auto;
+        right: -66px;
+    }
+
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    // .tns-nav {
+    //     button {
+    //         background-color: red;
+    //     }
+        
+    //     .tns-nav-active { //активная кнопка, на которую было нажато
+    //         background-color: blue;
+    //     }
+    // }
+
+    // button {
+    //     background: transparent;
+    // }
+}

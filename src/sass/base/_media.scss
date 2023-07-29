@@ -1,0 +1,311 @@
+@media (max-width: 1100px) {
+    .carousel {
+        .prev {
+            left: -13px;
+        }
+
+        .next {
+            right: -13px;
+        }
+
+        .tns-outer {
+            width: 800px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 745px;
+    }
+
+    .advantages__item {
+        max-width: 220px;
+    }
+
+    .carousel {
+        .prev, .next {
+            display: none;
+        }
+
+        .tns-outer {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .advantages {
+        min-height: 400px;
+        padding: 50px 0 55px 0;
+        &__img {
+            display: flex;
+            align-items:center;
+        }
+        &__item {
+            max-width: 550px;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+            img {
+                display: inline-block;
+                width: 70px;
+                height: 70px;
+            }
+            &_descr {
+                display: inline-block;
+                max-width: 400px;
+            }
+            &_text {
+                margin-top: 3px;
+            }
+            &_header {
+                margin-top: 15px;
+            }
+        }
+        &__items {
+            flex-direction: column;
+            margin-top: 10px;
+        }
+    }
+
+    .xs-hidden {
+        display: none;
+    }
+
+    .br-visibility {
+        display: none;
+    }
+
+    .header {
+        &__phone {
+            font-size: 15px;
+        }
+    }
+
+    .consultation {
+        .main_header_left {
+            font-size: 30px;
+        }
+        padding-top: 60px;
+        min-height: 600px;
+        &__descr {
+            margin-top: 50px;
+        }
+    }
+
+    .catalogue {
+        &__content {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 380px;
+    }
+
+    .header {
+        margin-right: 4px;
+        margin-left: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        &__logo {
+            width: 170px;
+        }
+
+        &__phone {
+            font-size: 14px;
+        }
+    }
+
+    .button {
+        &_xs {
+            width: 130px;
+            height: 28px;
+            font-size: 10px;
+        }
+    }
+
+    .xs-hidden {
+        display: none;
+    }
+
+    .promo {
+        padding-bottom: 30px;
+        min-height: 520px;
+        &__wrapper {
+            margin-top: 45px;
+            align-items: center;
+        }
+        &__icons {
+            min-width: 150px;
+            padding: 25px 2px 35px 2px;
+        }
+        &__icon {
+            font-size: 12px;
+            width: 100px;
+        }
+        &__header {
+            font-size: 26px;
+            text-align: center;
+        }
+        &__subheader {
+            margin-top: 0px;
+            margin-right: 3px;
+            margin-left: 3px;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+    .advantages {
+        padding: 30px 0 45px 0;
+        &__img {
+             display: block;
+        }
+        &__item {
+            margin-top: 15px;
+            flex-direction: column;
+            padding: 0 10px;
+        }
+    }
+
+    .main_header {
+        font-size: 24px;
+    }
+
+    .consultation {
+        .main_header_left {
+            font-size: 24px;
+            text-align: center;
+        }
+        padding-top: 60px;
+        // padding: 60px 10px 30px 10px;
+        min-height: 400px;
+        &__descr {
+            margin-top: 50px;
+            margin: 50px 10px 0 10px;
+            font-size: 18px;
+        }
+    }
+
+    .feed-form {
+        margin-top: 36px;
+        padding: 0 10px 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        input {
+            width: 100%
+        }
+        &_mt25 {
+            margin-top: 10px;
+        }
+        // input {
+        //     height: 50px;
+        //     border-radius: 5px;
+        //     background-color: #ffffff;
+        //     margin-bottom: 15px;
+        //     border: none;
+        //     padding: 0 20px; // для placeholder
+        //     color: #4b4b4b;
+        //     font-size: 14px;
+        //     font-weight: 300;
+        //     &:nth-child(3) {
+        //         margin-bottom: 20px;
+        //     }
+        // }
+    }
+
+    .catalogue {
+        padding-bottom: 65px;
+        &__tabs {
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        &__tab {
+            width: 120px;
+            height: 50px;
+            margin-top: 10px;
+            font-size: 10px;
+        }
+    }
+
+    .review {
+        &__items {
+            width: 100%;
+            padding: 0 5px;
+        }
+        &-item {
+            flex-direction: column;
+            align-items: center;
+            &__img {
+                margin-right: 0;
+            }
+            &__descr {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            &__text {
+                text-align: center;
+            }
+        }
+    }
+
+    .footer {
+        //height: 400px;
+        &__info {
+            width: 300px;
+            height: 200px;
+            padding: 20px 17px;
+        }
+        &__addr {
+            margin-bottom: 23px;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__phone {
+            font-size: 17px;
+            line-height: 17px;
+            margin-bottom: 25px;
+        }
+        &__social {
+            &-item {
+                width: 40px;
+                height: 40px;
+                margin: 0 15px;
+                img {
+                    height:20px;
+                }
+            }
+        }
+    }
+
+    .modal {
+        width: 270px;
+        min-height: 350px;
+        padding: 20px 15px 20px 15px;
+        &__close {
+            right: 3px;
+            top:-35px;
+            font-size: 41px; // спец.символы описываются как текст
+            line-height: 21px;
+        }
+    }
+}

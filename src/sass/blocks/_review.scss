@@ -1,0 +1,29 @@
+.review {
+    padding-bottom: 21px;
+    &__items {
+        padding-top: 20px;
+    }
+    &-item {
+        margin: 50px 0;
+        display: flex;
+        &__img {
+            margin-right: 62px;
+        }
+        &__name {
+            color: #0d0d0d;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &__undername {
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+            margin: 3px 0 19px 0;
+        }
+        &__text {
+            color: #0d0d0d;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

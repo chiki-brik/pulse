@@ -1,0 +1,25 @@
+.consultation {
+    min-height: 680px;
+    padding: 103px 0 92px 0;
+    background: url(../img/bg/bg_consult.jpg) center (center/cover) no-repeat;
+    &__descr {
+        margin-top: 80px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: left;
+    }
+    .error { // встроенный класс плагина для валидации
+        border: 1px solid red; // обводим поле формы красным, если что-то введено не верно
+        margin-bottom: 2px;
+
+    }
+    label.error { // сообщения, при неправильно введенных данных, чтобы не обводились в рамочку(из-за свойства .error - обводятся)
+        border: none;
+        //text-align: center;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        font-size: 13px;
+        color: $main-color;
+    }
+}
