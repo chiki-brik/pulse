@@ -82,7 +82,8 @@ $(document).ready(function(){
             $(this).on('click', function(e) { // е тут обязательно для регулировки станд.поведения браузера
                 e.preventDefault(); //убираем стандартное поведение браузера, чтобы при клике на ссылку, не отправляло в начало страницы
                 $('.catalogue-item__content').eq(i).toggleClass('catalogue-item__content_active');
-                $('.catalogue-item__list').eq(i).toggleClass('catalogue-item__list_active');
+                //$('.catalogue-item__list').eq(i).toggleClass('catalogue-item__list_active');
+                $('.catalogue-item__reverse').eq(i).toggleClass('catalogue-item__reverse_active');
             })
         }) 
     };
@@ -177,7 +178,7 @@ $(document).ready(function(){
 
 
         // Add smooth scrolling to all links
-    $("a[href^='#']").on('click', function(event) {
+    $("a[href='#up']").on('click', function(event) {
     
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
