@@ -32,4 +32,17 @@
             color: #ff0000;
         }
     }
+
+    &__icon {
+        &_animated {
+            animation: heartbeat 2s ease infinite; //краткая запись, порядок важен. первые два параметра - обязательны
+            // animation-name: heartbeat;
+            // animation-duration: 2s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
