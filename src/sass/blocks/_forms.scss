@@ -17,6 +17,23 @@
             margin-bottom: 20px;
         }
     }
+    .policy {
+        display: flex;
+        align-items:center;
+        color: #fff;
+        font-size: 18px;
+        line-height: 16px;
+        font-weight: 500;
+        // label {
+        //     color: #000;
+        //     font-size: 12px;
+        //     line-height: 14px;
+        //     font-weight: 500;
+        // }
+        input {
+            margin-right: 30px;
+        }
+    }
     input.error { //танцы с бубном из-за марджина
         margin-bottom: 2px;
     }

@@ -17,6 +17,10 @@
     min-height: 400px; // нужно для валидации, если ввели что-то некорректно, под полем будет появляться надпись -> окно будет расширяться
     background-color: #f2f2f2;
     padding: 38px 40px 40px 40px;
+    .policy {
+        color: #0d0d0d;
+        font-size: 14px;
+    }
     &__subtitle {
         color: #0d0d0d;
         font-size: 18px;

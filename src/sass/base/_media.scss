@@ -102,6 +102,13 @@
         &__descr {
             margin-top: 50px;
         }
+        .policy {
+            input {
+                width: 10%;
+                margin-left: 10px;
+                margin-right: 25px;
+            }
+        }
     }
 
     .catalogue {
@@ -198,6 +205,16 @@
             margin-top: 50px;
             margin: 50px 10px 0 10px;
             font-size: 18px;
+        }
+    }
+
+    .modal {
+        .policy {
+            input {
+                width: 15%;
+                margin-left: 10px;
+                margin-right: 25px;
+            }
         }
     }
 
